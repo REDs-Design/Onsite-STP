@@ -197,7 +197,7 @@ export default function ControllerDashboard({ navigate }: { navigate: (path: str
       </div>
 
       <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-center px-4">
-        <h1 className="text-6xl font-bold uppercase tracking-[0.25em] text-[#96f1c9]">Onsite STP</h1>
+        <h1 className="text-6xl font-bold uppercase tracking-[0.25em] text-[#96f1c9]">Onsite Treatment Plant</h1>
         <p className="mt-6 max-w-2xl mx-auto text-sm text-white/80 text-center">Advancing Circular Water Management.</p>
         <div className="flex items-center gap-6 mt-4">
           <button
