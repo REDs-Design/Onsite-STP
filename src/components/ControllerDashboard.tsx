@@ -4,7 +4,7 @@ import { loadState, saveState, subscribeState } from "../state";
 import { ChevronLeft, ChevronRight, Upload, Activity, Bell } from "lucide-react";
 import { uploadToFirebase, signInAnonymouslyAndGetToken } from "../firebase";
 
-const BACK_URL = "https://gates.framer.website/zone-2/zone-2-hz-kiosk-technology-page";
+const BACK_URL = "https://gates.framer.website/zone-2/zone-2-main";
 
 export default function ControllerDashboard({ navigate }: { navigate: (path: string) => void }) {
   const [state, setState] = useState<DisplayState>(() => loadState());
